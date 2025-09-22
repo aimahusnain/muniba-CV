@@ -8,7 +8,7 @@ export default function MunibaCV() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 py-4 px-4">
+    <main className="min-h-screen bg-gray-50 px-4">
       <div className="mx-auto max-w-4xl">
         {/* Export Button */}
         <div className="flex justify-end mb-4 print:hidden">
@@ -20,14 +20,14 @@ export default function MunibaCV() {
           </Button>
         </div>
 
-        <Card className="overflow-visible shadow-lg border-0 bg-white">
+        <Card className="overflow-visible shadow-lg border-0 bg-white py-0">
           <CardContent className="p-0">
             {/* Header with professional styling */}
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-6">
               <div className="text-center">
                 <h1 className="text-3xl font-bold mb-2 tracking-tight">Muniba Hameed</h1>
                 <p className="text-blue-100 text-lg mb-3 font-medium">Sales Associate (Aspiring) · Retail</p>
-                <div className="flex flex-wrap justify-center gap-4 text-sm text-blue-100">
+                <div className="flex justify-center gap-4 text-sm text-blue-100">
                   <span>+92 317 4191779</span>
                   <span className="text-blue-300">|</span>
                   <span>manamhameed169@gmail.com</span>
@@ -56,7 +56,7 @@ export default function MunibaCV() {
               {/* Education */}
               <section className="mb-6">
                 <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-blue-600 pl-3">Education</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <div className="grid grid-cols-3 gap-3">
                   <div className="bg-white p-3 border-l-4 border-blue-500 shadow-sm rounded">
                     <p className="font-semibold text-gray-900">B.Com (Continue)</p>
                     <p className="text-gray-600 font-medium">AIOU</p>
@@ -83,7 +83,7 @@ export default function MunibaCV() {
                   Work Experience
                 </h2>
                 <div className="bg-gray-50 p-4 rounded border-l-2 border-gray-300">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <div className="flex items-center justify-between mb-2">
                     <h3 className="font-semibold text-gray-900 text-lg">Teacher & Office Management</h3>
                     <span className="text-sm text-blue-600 font-semibold">3+ years</span>
                   </div>
@@ -142,7 +142,7 @@ export default function MunibaCV() {
                 <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-blue-600 pl-3">
                   Personal Information
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div className="grid grid-cols-2 gap-3">
                   {[
                     { label: "Father's Name", value: "Hameed" },
                     { label: "Nationality", value: "Pakistani" },
